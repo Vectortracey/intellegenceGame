@@ -1,0 +1,129 @@
+@import "flags.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+
+
+html {
+    background-color: #e7e7e7;
+}
+
+.container,
+.header,
+.content {
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.container {
+    margin-top: 15%;
+    height: clamp(15rem, 10vw, 30rem);
+    text-align: center;
+    width: 90%;
+    border-radius: 240px 15px 100px 15px / 15px 200px 15px;
+    border: solid 3px #6e7491;
+    background-color: #eeea;
+}
+
+.container:hover {
+    border-radius: 15px 200px 15px / 240px 15px 100px 15px;
+}
+
+.header {
+    position: relative;
+}
+
+.content {
+    position: relative;
+}
+
+.flags-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.alternative-answer:hover {
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+aside {
+    float: left;
+    width: 20%;
+}
+
+.letter.disabled:hover {
+    cursor: default;
+}
+
+#message {
+    display: flex;
+    max-width: 80%;
+    justify-content: center;
+    font-size: 5em;
+    color: red;
+    background-color: #2bba;
+}
+
+h1,h3  {
+    text-align: center;
+    color: #179135;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: clamp(1.2rem, 4vw, 2rem);
+    line-height: 1em;
+    padding: 0.1em;
+    margin: 0.4em;
+}
+p {
+    text-align: center;
+    color: #7c7c7c;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
+    line-height: 1em;
+    padding: 0.1em;
+    margin: 0.4em;
+}
+
+button {
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    width: 3em auto;
+    height: 1.5em;
+    text-align: center;
+    background-color: #179135;
+    border-radius: 15px;
+    font-size: clamp(.5rem, 3vw, 1.4rem);
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    -webkit-transition: all .5s;
+       -moz-transition: all .5s;
+         -o-transition: all .5s;
+            transition: all .5s;
+}
+
+
+button:hover {
+     transform: scale(1.1);
+}
+
+a:visited {
+    color: antiquewhite;
+}
+
+.flaglist {
+    margin-top: 10%;
+    height: clamp(12rem, 10vw, 25rem);
+    text-align: center;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 240px 15px 100px 15px / 15px 200px 15px;
+    border: solid 3px #6e7491;
+    background-color: #eeea;
+}
+
+.flaglist:hover {
+    border-radius: 15px 200px 15px / 240px 15px 100px 15px;
+}

@@ -1,0 +1,120 @@
+.flag-75x50 {
+    position: relative;
+    width: 75px;
+    height: 50px;
+    margin: 5px;
+}
+
+.flag-75x50:hover {
+    cursor: pointer;
+    outline: 2px solid black;
+}
+
+.hidden-flag {
+    height: 100%;
+    width: 100%;
+    background-color: #004b87;
+    z-index: 1000;
+}
+
+.sweden {
+    background-color: #004b87;
+}
+
+.sweden .swe-horizontal {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    height: 20%;
+    width: 100%;
+    background-color: #ffcd00;
+    z-index: 1;
+}
+
+.sweden .swe-vertical {
+    position: absolute;
+    top: 0;
+    left: 31.25%;
+    height: 100%;
+    width: 12.5%;
+    background-color: #ffcd00;
+    z-index: 1;
+}
+
+
+.denmark {
+    background-color: #BF0028;
+}
+
+.denmark .den-horizontal {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    height: 20%;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.denmark .den-vertical {
+    position: absolute;
+    top: 0;
+    left: 31.25%;
+    height: 100%;
+    width: 12.5%;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+
+
+
+.finland {
+    background-color: #ffffff;
+}
+
+.finland .fin-horizontal {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    height: 20%;
+    width: 100%;
+    background-color: #103383;
+    z-index: 1;
+}
+
+.finland .fin-vertical {
+    position: absolute;
+    top: 0;
+    left: 31.25%;
+    height: 100%;
+    width: 12.5%;
+    background-color: #103383;
+    z-index: 1;
+}
+
+
+.russia {
+    background-color: #ffffff;
+}
+
+.russia-midle-stripe {
+    position: absolute;
+    top: 33.3%;
+    left: 0;
+    height: 33.3%;
+    width: 100%;
+    background-color: #0038A4;
+    z-index: 1;
+}
+
+.russia .russia-bottom-stripe {
+    position: absolute;
+    top: 66.6%;
+    left: 0;
+    height: 33.4%;
+    width: 100%;
+    background-color: #D52A1D;
+    z-index: 1;
+}
+
